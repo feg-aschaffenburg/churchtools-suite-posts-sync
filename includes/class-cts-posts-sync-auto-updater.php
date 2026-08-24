@@ -15,10 +15,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 class CTS_Posts_Sync_Auto_Updater {
 
-	private const GITHUB_RAW_PLUGIN = 'https://raw.githubusercontent.com/FEGAschaffenburg/churchtools-suite/main/addons/churchtools-suite-posts-sync/churchtools-suite-posts-sync.php';
+	private const GITHUB_RAW_PLUGIN = 'https://raw.githubusercontent.com/FEGAschaffenburg/churchtools-suite-posts-sync/main/churchtools-suite-posts-sync.php';
 
-	const GITHUB_API_RELEASES = 'https://api.github.com/repos/FEGAschaffenburg/churchtools-suite/releases?per_page=30';
-	const GITHUB_API_RELEASES_LATEST = 'https://api.github.com/repos/FEGAschaffenburg/churchtools-suite/releases/latest';
+	const GITHUB_API_RELEASES = 'https://api.github.com/repos/FEGAschaffenburg/churchtools-suite-posts-sync/releases?per_page=30';
+	const GITHUB_API_RELEASES_LATEST = 'https://api.github.com/repos/FEGAschaffenburg/churchtools-suite-posts-sync/releases/latest';
 	const PLUGIN_SLUG = 'churchtools-suite-posts-sync';
 	const PLUGIN_FILE = 'churchtools-suite-posts-sync/churchtools-suite-posts-sync.php';
 
